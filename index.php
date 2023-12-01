@@ -33,8 +33,8 @@
                           <label class="form-control-placeholder" for="usuario">Usuario</label>
                       </div>
                 <div class="form-group">
-                  <input id="password-field" type="password" class="form-control" name="contraseña" required>
-                  <label class="form-control-placeholder" for="contraseña">Contraseña</label>
+                  <input id="password-field" type="password" class="form-control" name="contrasena" required>
+                  <label class="form-control-placeholder" for="contrasena">Contraseña</label>
                   <span toggle="#password-field" class="fa fa-fw fa-eye field-icon toggle-password"></span>
                 </div>
                 <br>
