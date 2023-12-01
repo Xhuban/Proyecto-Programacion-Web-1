@@ -27,14 +27,14 @@
                           <h3 class="mb-4 row justify-content-center">Iniciar sesión</h3>
                       </div>
                   </div>
-                        <form action="#" class="signin-form">
+                        <form action="ingreso.php" class="signin-form">
                       <div class="form-group mt-3">
-                          <input type="text" class="form-control" required>
-                          <label class="form-control-placeholder" for="username">Usuario</label>
+                          <input type="text" class="form-control" name="usuario" required >
+                          <label class="form-control-placeholder" for="usuario">Usuario</label>
                       </div>
                 <div class="form-group">
-                  <input id="password-field" type="password" class="form-control" required>
-                  <label class="form-control-placeholder" for="password">Contraseña</label>
+                  <input id="password-field" type="password" class="form-control" name="contraseña" required>
+                  <label class="form-control-placeholder" for="contraseña">Contraseña</label>
                   <span toggle="#password-field" class="fa fa-fw fa-eye field-icon toggle-password"></span>
                 </div>
                 <br>
