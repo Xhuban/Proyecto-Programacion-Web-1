@@ -1,7 +1,7 @@
 <?php
 $host_db = "localhost:3306";
 $user_db = "root";
-$pass_db = "4593809722";
+$pass_db = "";
 $db_name = "asistencia";
 
 $conexion = new mysqli($host_db, $user_db, $pass_db, $db_name);
